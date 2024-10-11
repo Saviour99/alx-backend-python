@@ -9,7 +9,7 @@ from typing import Sequence, Any, Union
 
 def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
     """
-    A function that returns any type of data or none 
+    A function that returns any type of data or none
     """
     if lst:
         return lst[0]
