@@ -10,4 +10,4 @@ def concat(str1: str, str2: str) -> str:
     """
     A function that returns a concatenated string
     """
-    return f"{str1} {str2}"
+    return str1 + str2
