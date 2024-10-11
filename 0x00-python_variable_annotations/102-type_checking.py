@@ -26,6 +26,7 @@ def zoom_array(lst: Tuple[Any, ...], factor: int = 2) -> List:
     ]
     return zoomed_in
 
+
 # Change the array to a tuple for type consistency
 array = (12, 72, 91)  # Changed to tuple
 
