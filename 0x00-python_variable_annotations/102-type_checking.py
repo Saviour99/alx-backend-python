@@ -4,10 +4,10 @@
 Advance annotations
 """
 
-from typing import Tuple, List, Any, Union
+from typing import Tuple, List, Any
 
 
-def zoom_array(lst: List[Any], factor: Union[int, float] = 2) -> List[Any]:
+def zoom_array(lst: List[Any], factor: Any = 2) -> List[Any]:
     """
     A function that duplicates elements in a tuple based
     on the factor.
